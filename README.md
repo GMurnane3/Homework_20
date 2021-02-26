@@ -13,7 +13,7 @@ testnet addresses:
 
 Contracts functions:
 1. AssociateProfitSplitter: Takes ether into contract then divides it evenly to pay employees at associate level quickly.
-2. 
+ 
 ### Smart contract code for AssociateProfitSplitter.sol.
 ![AssociateProfitSplitter sol](https://user-images.githubusercontent.com/70610967/109243692-3b5fd980-7792-11eb-8200-366dee37fc99.png)
 
@@ -37,5 +37,26 @@ Contracts functions:
 ### The transaction amounts are reflected in the ledger.
 ![transaction(1)](https://user-images.githubusercontent.com/70610967/109244051-db1d6780-7792-11eb-83f1-3e9ebcc1f652.png)
 
-3. TieredProfitSplitter: Distributes percentages of ethere taken into contract among different level tiered employees.
+2. TieredProfitSplitter: Distributes percentages of ethere taken into contract among different level tiered employees.
+
+### The amount of ETH in addresses that represent `employee_one`, `employee_two`, and `employee_three` before deployment of transaction.
+![TieredProfitSplitter(1)](https://user-images.githubusercontent.com/70610967/109244573-c8576280-7793-11eb-9c31-7ac7da1ce8a0.png)![TieredProfitSplitter(1)](https://user-images.githubusercontent.com/70610967/109244573-c8576280-7793-11eb-9c31-7ac7da1ce8a0.png)
+
+### TieredProfitSplitter.sol compiled.
+![TieredProfitSplitter(2)](https://user-images.githubusercontent.com/70610967/109244608-d6a57e80-7793-11eb-9e32-25f1a85a0056.png)
+
+### TieredProfitSplitter.sol deployed.
+![TieredProfitSplitter(3)](https://user-images.githubusercontent.com/70610967/109244624-de652300-7793-11eb-8538-4e035fc7fb92.png)
+
+![TieredProfitSplitter(4)](https://user-images.githubusercontent.com/70610967/109244636-e2914080-7793-11eb-8f64-ca0a653ad8f6.png)
+
+### Deposit reflected in MetaMask.
+![TieredProfitSplitter(5)](https://user-images.githubusercontent.com/70610967/109244644-e58c3100-7793-11eb-8aa6-43e22ff84eec.png)
+
+### The smart contract has confirmed the deposit to the employee accounts.
+![TieredProfitSplitter(6)](https://user-images.githubusercontent.com/70610967/109244650-e8872180-7793-11eb-876f-efbbb4065353.png)
+
+### Deposit reflected in addresses of `employee_one`, `employee_two`,  and `employee_three`.
+![TieredProfitSplitter(7)](https://user-images.githubusercontent.com/70610967/109244660-ec1aa880-7793-11eb-97c7-883988855e36.png)
+
 4. DeferredEquityPlan: Models stock plans and manages annual distributions of shares for an employee of the company.
