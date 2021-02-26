@@ -15,49 +15,41 @@ Contracts functions:
 1. AssociateProfitSplitter: Takes ether into contract then divides it evenly to pay employees at associate level quickly.
  
 ### Smart contract code for AssociateProfitSplitter.sol.
-![AssociateProfitSplitter sol](https://user-images.githubusercontent.com/70610967/109243692-3b5fd980-7792-11eb-8200-366dee37fc99.png)
+![1 AssociateProfitSplitter Code](https://user-images.githubusercontent.com/70610967/109328253-1a3cce80-780e-11eb-93d6-41a97a86cb9f.PNG)
 
 ### The amount in addresses that represent `employee_one`, `employee_two`, and `employee_three` before deployment of transaction.
-![preTrans](https://user-images.githubusercontent.com/70610967/109243750-56cae480-7792-11eb-8652-f3d9c356619e.png)
+![2 Ganache](https://user-images.githubusercontent.com/70610967/109328317-304a8f00-780e-11eb-9536-020cd512c193.PNG)
 
 ### The smart contract AssociateProfitSplitter.sol is compiled. 
-![AssociateProfitSplitter sol_compiled](https://user-images.githubusercontent.com/70610967/109243900-9c87ad00-7792-11eb-94cc-17cdcccf1975.png)
+![3 AssociateProfitSplitter Compiled](https://user-images.githubusercontent.com/70610967/109328871-c979a580-780e-11eb-8d4f-dcda329538f1.PNG)
 
-![AssociateProfitSplitter sol_compiled(1)](https://user-images.githubusercontent.com/70610967/109243816-72ce8600-7792-11eb-9ba7-7a0dd64d7f68.png)
+![4 AssociateProfitSplitter Compiled](https://user-images.githubusercontent.com/70610967/109328887-ced6f000-780e-11eb-8d10-88c4b5303c0b.PNG)
 
 ### The smart contract is deployed.
-![deployedContract](https://user-images.githubusercontent.com/70610967/109243937-ac06f600-7792-11eb-8468-2233fae44e02.png)
-
-![deposit](https://user-images.githubusercontent.com/70610967/109243973-bb863f00-7792-11eb-9f8b-1797cbf26eb0.png)
+![6 AssociateProfitSplitter Deployed](https://user-images.githubusercontent.com/70610967/109329199-25dcc500-780f-11eb-84f2-62a6d95c8387.PNG)
 
 ### The Transaction is reflected in MetaMask.
-![transaction](https://user-images.githubusercontent.com/70610967/109244016-ce007880-7792-11eb-9a65-84854c485c47.png)
-![Deposit Trasaction](Images/transaction(1).png)
+![7 MetaMask](https://user-images.githubusercontent.com/70610967/109329367-53c20980-780f-11eb-803a-576de32617cd.PNG)
 
 ### The transaction amounts are reflected in the ledger.
-![transaction(1)](https://user-images.githubusercontent.com/70610967/109244051-db1d6780-7792-11eb-83f1-3e9ebcc1f652.png)
+![8 MetaMask](https://user-images.githubusercontent.com/70610967/109329446-6ccaba80-780f-11eb-8bf9-8f554978be39.PNG))
 
 2. TieredProfitSplitter: Distributes percentages of ethere taken into contract among different level tiered employees.
 
 ### The amount of ETH in addresses that represent `employee_one`, `employee_two`, and `employee_three` before deployment of transaction.
-![TieredProfitSplitter(1)](https://user-images.githubusercontent.com/70610967/109244573-c8576280-7793-11eb-9c31-7ac7da1ce8a0.png)![TieredProfitSplitter(1)](https://user-images.githubusercontent.com/70610967/109244573-c8576280-7793-11eb-9c31-7ac7da1ce8a0.png)
+![9 Ganache](https://user-images.githubusercontent.com/70610967/109329502-7f44f400-780f-11eb-8977-4743e91f42f1.PNG)
 
 ### TieredProfitSplitter.sol compiled.
-![TieredProfitSplitter(2)](https://user-images.githubusercontent.com/70610967/109244608-d6a57e80-7793-11eb-9e32-25f1a85a0056.png)
+![10 TieredProfitSplitter Compiled](https://user-images.githubusercontent.com/70610967/109329572-98e63b80-780f-11eb-8ecb-42a16920a373.PNG)
 
 ### TieredProfitSplitter.sol deployed.
-![TieredProfitSplitter(3)](https://user-images.githubusercontent.com/70610967/109244624-de652300-7793-11eb-8538-4e035fc7fb92.png)
-
-![TieredProfitSplitter(4)](https://user-images.githubusercontent.com/70610967/109244636-e2914080-7793-11eb-8f64-ca0a653ad8f6.png)
+![11 TieredProfitSplitter Deployed](https://user-images.githubusercontent.com/70610967/109329631-aef3fc00-780f-11eb-9134-d2fa7ea0a07c.PNG)
 
 ### Deposit reflected in MetaMask.
-![TieredProfitSplitter(5)](https://user-images.githubusercontent.com/70610967/109244644-e58c3100-7793-11eb-8aa6-43e22ff84eec.png)
+![12 TieredProfitSplitter Depositied](https://user-images.githubusercontent.com/70610967/109329710-c3d08f80-780f-11eb-8b9b-a706ec3dec01.PNG)
 
-### The smart contract has confirmed the deposit to the employee accounts.
-![TieredProfitSplitter(6)](https://user-images.githubusercontent.com/70610967/109244650-e8872180-7793-11eb-876f-efbbb4065353.png)
-
-### Deposit reflected in addresses of `employee_one`, `employee_two`,  and `employee_three`.
-![TieredProfitSplitter(7)](https://user-images.githubusercontent.com/70610967/109244660-ec1aa880-7793-11eb-97c7-883988855e36.png)
+### The smart contract has confirmed the deposit to the employee accounts and is reflected in addresses of `employee_one`, `employee_two`,  and `employee_three` (reflects 2 deposits of 10 ETH each).
+![13 Ganache](https://user-images.githubusercontent.com/70610967/109329946-04c8a400-7810-11eb-991e-4dd2c0f8f0a6.PNG)
 
 3. DeferredEquityPlan: Models stock plans and manages annual distributions of shares for an employee of the company.
 
